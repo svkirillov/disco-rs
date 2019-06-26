@@ -1,0 +1,12 @@
+[package]
+name = "disco-rs"
+description = "An implementation of the Disco cryptographic protocol framework in pure Rust"
+version = "0.1.0"
+license = "MIT"
+authors = ["Simon Kirillov <svkirillov3@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "*"
+x25519-dalek = "*"
+strobe-rs = "*"
